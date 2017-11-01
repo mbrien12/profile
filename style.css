@@ -1,7 +1,7 @@
 /* Core styles */
 
 body {
-  background-color:#F2F5EA;
+  background-color: #F2F5EA;
   font-family: 'Nunito', sans-serif;
   color: #2C363F;
   line-height: 25px ;
@@ -81,6 +81,24 @@ padding: 0px 20px;
   color: #C3C8BF;
 }
 
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2C363F;
+}
+
+#sidebar > ul > li {
+color: white;
+list-style: none;
+line-height: 80px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
 
 /* Media queries */
 

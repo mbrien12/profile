@@ -9,8 +9,22 @@
     <script src="https://use.fontawesome.com/158667c632.js"></script>
   </head>
   <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#about-me" target="_blank"> <i class="fa fa-smile-o" aria-hidden="true"></i>   About me</a>
+        </li>
+        <li>
+          <a href="#-get-in-touch" target="_blank"> <i class="fa fa-envelope-o" aria-hidden="true"></i>   Get in touch</a>
+        </li>
+        <li>
+          <a href="#books" target="_blank"> <i class="fa fa-book" aria-hidden="true"></i>  Favouite books</a>
+        </li>
+      </ul>
+    </div>
+    <div>
     <div class="container">
-      <div class="card">
+      <div class="card" id="about-me">
         <img class="image-round" src="images/michelle-brien-profile-square.png" alt="michelle profile">
         <h1>Michelle Brien</h1>
         <h2>Product Owner at Decoded</h2>
@@ -18,7 +32,7 @@
         <a class="pink-btn" href="https://github.com/mbrien12" target="_blank">See for yourself</a>
       </div>
       <div class="card">
-        <ul class="list-inline">
+        <ul class="list-inline" id="get-in-touch">
           <li>
             <a href="https://www.facebook.com/mbrien1" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i>   Facebook</a>
           </li>
@@ -30,7 +44,7 @@
           </li>
         </ul>
       </div>
-      <div class="card">
+      <div class="card" id="books">
         <h2>My favourite books</h2>
         <table>
           <tr>
@@ -63,5 +77,6 @@
         <p class="light-text">This page was coded as part of the Fullstack program <a href="https://www.lewagon.com/">@LeWagon.</a></p>
       </div>
     </div>
+  </div>
   </body>
 </html>
